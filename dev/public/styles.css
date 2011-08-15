@@ -1,0 +1,490 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+    /*position:absolute;*/
+	font-size:0.825em;
+	color:#fcfcfc;
+	background-color:#f7f7f7;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:129px;
+}
+
+#myheader{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 127px;
+/*   width: 3200px;*/
+    padding:0;
+    z-index:34;
+/*    background-color:#000000;*/
+    background:url(img/header-bkgrnd.png) repeat-x 50% 50% #f8f8f8;
+}
+
+#myheader h1{
+    margin-left:40px;
+}
+
+#header-footer {
+    font-size:27px;
+    color:#ffffff;
+    margin-top:-37px;
+    z-index:12;
+    position:absolute;
+}
+
+
+#head-graphic{
+     background:url(img/head.png) no-repeat;
+     width:78px;
+     height:80px;
+     position:absolute;
+     z-index:323;
+     margin-top:10px;
+     margin-left:265px;
+     color:#1b1b1b;
+}
+
+
+#myheader a.up{
+    font-color:#00a4f1;
+}
+
+#about-section-copy{
+    color:#4b2b11;
+    font-family:champagne;
+    font-size:16px;
+    margin-left:30px;
+}
+
+
+/* Hyperlink Styles: */
+
+a, a:visited {
+    color:#00a4f1;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+/* Headings: */
+
+h1,h2,h3{
+/*  font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;*/
+	text-shadow:0 1px 1px black;
+	font-family:champagne;
+}
+
+h1{
+	/* The logo text */
+	font-size:55px;
+	padding:0.5em 0 0;
+	/*text-transform:uppercase;*/
+}
+
+h3{
+	/* The slogan text */
+	font-family:champagne;
+	font-size:48px;
+	color:#00a4f1;
+    font-weight:bold;
+}
+
+
+h2{
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:0.01em;
+	font-family:champagne-bold;
+	font-color:#ffffff;
+	/*float:left;*/
+}
+
+p{
+	line-height:1.5em;
+	padding-bottom:1em;
+}
+
+/* button 
+---------------------------------------------- */
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 3px 3px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+    font: 12px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 1em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .3em; 
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);	
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+#button-text{
+    /*font-family:champagne-bold;
+        font-weight:bold;*/
+}
+
+
+/* blue */
+.blue {
+	color: #d9eef7;
+	border: solid 1px #1c2b33;
+	background: #0c1216;
+	background: -webkit-gradient(linear, left top, left bottom, from(#416371), to(#0c1216));
+	background: -moz-linear-gradient(top,  #416371,  #0c1216);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#416371', endColorstr='#0c1216');
+}
+.blue:hover {
+	background: #0c1216;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4b788a), to(#0f171c));
+	background: -moz-linear-gradient(top,  #4b788a,  #0f171c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b788a', endColorstr='#0f171c');
+}
+.blue:active {
+	color: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4b788a), to(#0f171c));
+	background: -moz-linear-gradient(top,  #4b788a,  #0f171c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b788a', endColorstr='#0f171c');
+}
+
+
+
+.line{
+	/* The dividing line: */
+	height:1px;
+	background-color:#24404c;
+	border-bottom:1px solid #416371;
+	margin:1em 0;
+    overflow:hidden;
+}
+
+#contact-header p{
+    color:#4b2b11;
+    font-family:champagne;
+    font-size:16px;
+    margin-left:30px;
+}
+
+#contact-header a{
+    font-size:24px;
+    color:#4a4a4a;
+}
+
+
+#work-item img{
+    border-style:solid;
+    border-width:5px;
+    border-color:#c8c8c8;
+    margin-top:3px;
+}
+
+#work-item{
+    margin-left:30px;
+}
+
+#work-item p{
+    color:#4b2b11;
+    font-size:14px;
+    margin-left:10px;
+}
+
+#work-title{
+    color:#7b7b7b;
+    font-size:24px;
+}
+
+
+#tags .line{
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:-10px 0;
+}
+
+
+footer .line{
+	margin:2em 0;
+}
+
+#back-to-top-button{
+    position:absolute;
+    width:51px;
+    z-index:77;
+    height:50px;
+    margin-top:0px;
+    margin-left:190px;
+/*    right:100px;*/
+/*    background:url(img/back_to_top_button.png) no-repeat;*/
+}
+
+#right-panel{
+    position:absolute;
+    /*float:right;*/
+    left: 700px;
+    top: 0px;
+    z-index:33;
+}
+
+
+#splash-right-panel{
+    position:absolute;
+    left:600px;
+    float:right;
+}
+
+#splash-right-panel .line{
+    margin-top:-10px;
+}
+
+#splash-right-panel p{
+    font-weight:bold;
+    font-family:champagne-bold;
+    font-size:14px;
+    margin-top:-20px;
+}
+
+#splash-first-box{
+     width: 300px;
+     padding:10px 10px; 
+     background-color:#000000;
+}
+
+#splash-right-panel h2{
+     font-size:18px;
+}
+
+
+#splash-right-panel-second-line{
+    margin-top:-13px;
+}
+
+#right-panel ul{
+     list-style-type:none; 
+     margin-left:10px;
+     font-weight:bold;
+     margin-top:5px;
+     font-family:champagne-bold;
+     
+}
+
+#tags{
+   /*height: 200px;*/
+   width: 150px;
+   padding:10px 10px; 
+   background-color:#000000;
+}
+
+#tags ul{
+/*     margin-top:-20px;*/
+}
+
+#tags li{
+    margin-top:3px;
+}
+
+#tags li a{
+   color:#ffffff;
+}
+
+#information-links{
+    margin-top:-12px;
+}
+
+#information-links li a{
+    font-size:14px;
+    color:#24404c;
+}
+
+#tags h2{
+    font-size:18px;
+}
+
+
+.splash-image-stuff{
+    width:555px;
+    background-color:#000000;
+}
+
+.splash-image{
+    padding:5px 5px;
+    margin-top:90px;
+}
+
+
+.splash-header{
+    text-shadow:0 1px 1px black;
+	font-family:champagne-bold;
+	font-size:120px;
+	font-weight:bold;
+	position:absolute;
+	z-index:20;
+	margin-left:20px;
+}
+
+#splash-second-line{
+    margin-top:80px;
+}
+
+.splash-video{
+    position:absolute;
+	z-index:20;
+	margin-top:466px;
+	margin-left:51px;
+}
+
+/* The clearfix hack to clear the floats: */
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* The navigation styling: */
+
+/*nav ul li{
+    display:inline;
+}
+
+nav ul li a,
+nav ul li a:visited{
+    color:#565656;
+    display:block;
+    float:left;
+    font-size:1.25em;
+    font-weight:bold;
+    margin:5px 2px;
+    padding:7px 10px 4px;
+    text-shadow:0 1px 1px white;
+    text-transform:uppercase;
+}
+
+nav ul li a:hover{
+    text-decoration:none;
+    background-color:#f0f0f0;
+}*/
+
+nav, article, nav ul li a,figure{
+	/* Applying CSS3 rounded corners: */
+	/*-moz-border-radius:10px;
+	   -webkit-border-radius:10px;
+	   border-radius:10px;*/
+}
+
+/* Article styles: */
+
+#page{
+	width:800px;
+/*  margin:80px auto;*/
+	margin-top:140px;
+    margin-left:100px;
+	position:relative;
+}
+
+article{
+	background-color:#070707;
+	margin:8px 0;
+	padding:20px;
+	text-shadow:0 2px 0 black;
+	width:636px;
+}
+
+.left-article{
+    float:left;
+}
+
+figure{
+	float:left;
+	/*height:300px;*/
+	margin-left:15px;
+	overflow:hidden;
+	/*width:500px;*/
+}
+
+figure:hover{
+	/*-moz-box-shadow:0 0 2px #4D7788;
+	   -webkit-box-shadow:0 0 2px #4D7788;
+	   box-shadow:0 0 2px #4D7788;*/
+}
+
+figure img{
+	margin-left:0px;
+}
+
+.voting-star{
+    margin-left:-3px;
+}
+
+/* Footer styling: */
+
+footer{
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+}
+
+
+footer p{
+	margin-bottom:-2.5em;
+	position:relative;
+}
+
+footer a,footer a:visited{
+	color:#cccccc;
+	background-color:#213e4a;
+	display:block;
+	padding:2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+footer a:hover{
+	text-decoration:none;
+/*  background-color:#142830;*/
+}
+
+footer a.by{
+	float:left;
+
+}
+
+footer a.up{
+	float:right;
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<site>
+	<section id="work">
+		<project>
+			<name><![CDATA[2k games]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://2kgames.com]]></project_url>
+			<image_url><![CDATA[image1.jpg]]></image_url>
+			<blurb><![CDATA[I did some development work on the 2K Games site while freelancing at Rokkan. Winner of FWA Site of The Day, this was a most challenging project.  After a lot of blood sweat and tears we were able to launch.  Being an avid gamer myself added a little something special to seeing this go live.]]></blurb>
+		</project>
+		<project>
+			<name><![CDATA[Starwood Hotels Luxury Collection]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://www.starwoodhotels.com/luxury/search/explore_collection.html]]></project_url>
+			<image_url><![CDATA[starwood.jpg]]></image_url>
+			<blurb><![CDATA[Winner of Adobe Site of the Day, this was the first large project that I was tasked at developing alone on the Flash side.  I was able to work with the tightly knit back end team at Starwood, and we were able to knock this one out of the park.]]></blurb>
+		</project>
+		<project>
+			<name><![CDATA[At&t Network Site]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://dev.pxlflu.net/att/network/]]></project_url>
+			<image_url><![CDATA[att1.jpg]]></image_url>
+			<blurb><![CDATA[Done for At&t while working with BBDO.]]></blurb>
+		</project>
+		<project>
+			<name><![CDATA[Hands for Haiti]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://www.handsforhaiti.us/]]></project_url>
+			<image_url><![CDATA[haiti.jpg]]></image_url>
+			<blurb><![CDATA[Hands for Haiti was designed by myself and a group of friends in response to the devastating earthquake in 2010.  We wanted to organize news of efforts in the NYC area on a single site so that people could find information about how to donate.]]></blurb>
+		</project>
+		<project>
+			<name><![CDATA[Sully Bonnelly]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://sullybonnelly.com/]]></project_url>
+			<image_url><![CDATA[sully.jpg]]></image_url>
+			<blurb><![CDATA[This site was designed by a buddy of mine, Hyun Lee and I handled the development.  I would say that Hyun is one of the best designers that I’ve worked with and we were able to turn this project around quickly.]]></blurb>
+		</project>
+		<project>
+			<name><![CDATA[Citi Webisodes]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://dev.pxlflu.net/citi/webisodes/]]></project_url>
+			<image_url><![CDATA[webisodes.jpg]]></image_url>
+			<blurb><![CDATA[Done for Citi while working with BBDO.]]></blurb>
+		</project>
+		<project>
+			<name><![CDATA[Johnson & Johnson Interactive Map]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://www.jnj.com/wps/wcm/jsp/flash/map/map.html?mapType=ourGiving]]></project_url>
+			<image_url><![CDATA[jnj.jpg]]></image_url>
+			<blurb><![CDATA[The end of this Johnson & Johnson project saw myself and my team sleeping at the office for 2 nights straight.  Lots of laughs and a great finished piece.]]></blurb>
+		</project>
+		<project>
+			<name><![CDATA[Armstrong]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://dev.pxlflu.net/armstrong/]]></project_url>
+			<image_url><![CDATA[armstrong.jpg]]></image_url>
+			<blurb><![CDATA[Done for Armstrong while working with BBDO.]]></blurb>
+		</project>
+		<project>
+			<name><![CDATA[At&t Network Site V1]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://dev.pxlflu.net/armstrong/]]></project_url>
+			<image_url><![CDATA[att2.jpg]]></image_url>
+			<blurb><![CDATA[Done for At&t while working with BBDO.]]></blurb>
+		</project>
+		<project>
+			<name><![CDATA[Palo Mamajuana Evite]]></name>
+			<award_name><![CDATA[FWA Site of the day]]></award_name>
+			<project_url><![CDATA[http://dev.pxlflu.net/palo/evite/]]></project_url>
+			<image_url><![CDATA[palo.jpg]]></image_url>
+			<blurb><![CDATA[An evite done for Palo Mamajuana.  I designed and programmed the evite.]]></blurb>
+		</project>
+	</section>
+</site>
