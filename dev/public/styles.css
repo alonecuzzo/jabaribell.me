@@ -225,16 +225,16 @@ p{
 }
 
 
-#work-item-even{
+.work-item-even{
     margin-left:470px;
     margin-top:-307px;
 }
 
-#work-item-even img{
+.work-item-even img{
     margin-top:-13px;
 }
 
-#work-item-even p{
+.work-item-even p{
     margin-top:-13px;
 }
 
@@ -269,9 +269,11 @@ footer .line{
 #right-panel{
     position:absolute;
     /*float:right;*/
-    left: 700px;
-    top: 0px;
+    left: 890px;
+    top: 129px;
     z-index:33;
+    color:#000000;
+    font-size:14px;
 }
 
 
