@@ -207,21 +207,35 @@ p{
 }
 
 
-#work-item img{
+.work-item img{
     border-style:solid;
     border-width:5px;
     border-color:#c8c8c8;
     margin-top:3px;
 }
 
-#work-item{
+.work-item{
     margin-left:30px;
 }
 
-#work-item p{
+.work-item p{
     color:#4b2b11;
     font-size:14px;
     margin-left:10px;
+}
+
+
+#work-item-even{
+    margin-left:470px;
+    margin-top:-307px;
+}
+
+#work-item-even img{
+    margin-top:-13px;
+}
+
+#work-item-even p{
+    margin-top:-13px;
 }
 
 #work-title{
