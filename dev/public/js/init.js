@@ -18,7 +18,7 @@ $(document).ready(function(){
     
     $('#right-panel').css('position','fixed');
      $('#right-panel').css('top','129px');
-     $('body').css('overflow-x', 'hidden');
+    
     
     if(isff){
         loginOffsetX = 400;
@@ -43,6 +43,10 @@ $(document).ready(function(){
 	    });
 	    
 	    $('right-panel').css('left', '910px');
+	   // $('#about-section').css('margin-top', '-100px');
+	} else {
+	    
+	     $('body').css('overflow-x', 'hidden');
 	}
 	
 
