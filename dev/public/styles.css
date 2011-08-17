@@ -80,7 +80,7 @@ a, a:visited {
 }
 
 a:hover{
-	text-decoration:underline;
+/*  text-decoration:underline;*/
 }
 
 a img{
@@ -269,7 +269,7 @@ footer .line{
 #right-panel{
     position:absolute;
     /*float:right;*/
-    left: 890px;
+    left: 910px;
     top: 129px;
     z-index:33;
     color:#000000;

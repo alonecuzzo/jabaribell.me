@@ -16,6 +16,10 @@ $(document).ready(function(){
 	var isie = $.browser.msie;
     var loginOffsetX = 0;
     
+    $('#right-panel').css('position','fixed');
+     $('#right-panel').css('top','129px');
+     $('body').css('overflow-x', 'hidden');
+    
     if(isff){
         loginOffsetX = 400;
         //back to button fix
@@ -27,49 +31,24 @@ $(document).ready(function(){
     } else {
         loginOffsetX = 330;
     }
-	// #work-item-even{
-	//         margin-left:470px;
-	//         margin-top:-307px;
-	//     }
-	
-    // .work-item img{
-    //         border-style:solid;
-    //         border-width:5px;
-    //         border-color:#c8c8c8;
-    //         margin-top:3px;
-    //     }
-	
+
 	if(isie)
 	{
-	    
 	    $('.work-item-even').each( function(index) {
-	        
 	        $(this).css('padding-top', '31px');
-	        
-	       // $(this).css('position', 'relative');
-	       // alert( index + ": " +$(this))
 	    });
 	    
 	    $('.work-item-even img').each( function(index) {
-	        
 	        $(this).css('margin-top', '5px');
-	        
-	       // $(this).css('position', 'relative');
-	       // alert( index + ": " +$(this))
 	    });
 	    
-	    // $('#work-item-even').css('display', 'inline');
-	    //         $('.work-item').css('margin-top', '0px');
-	    //         //$('#work-item-even').css('margin-top', '-87px');
-	    //         $('.work-item img').css('margin-top', '0px');
-	    //alert('ise');
-	   // left: 890px;
 	    $('right-panel').css('left', '910px');
 	}
 	
 
 	window.onscroll = function()
 	{
+	    
 	    var offsetX = $('#articles').offset();
         
 	    if( window.XMLHttpRequest ) {
@@ -78,7 +57,7 @@ $(document).ready(function(){
 	         
 	         $('#right-panel').css('position','fixed');
  	         $('#right-panel').css('top','129px');
- 	         $('#right-panel').css('margin-left', offsetX.left);
+ 	        // $('#right-panel').css('margin-left', offsetX.left);
  	         
  	         //fade button here
  	         if (document.documentElement.scrollTop > 675 || self.pageYOffset > 675) {
@@ -95,7 +74,7 @@ $(document).ready(function(){
     $(window).bind('resize', function () { 
         var offsetY = self.pageYOffset;
         var offsetX = $(window).width()-loginOffsetX;
-        
+        $('body').css('overflow-x', 'visible');
         if( window.XMLHttpRequest ) {
             // $('#right-panel').css('position','absolute');
             //             $('#right-panel').css('float','right');
